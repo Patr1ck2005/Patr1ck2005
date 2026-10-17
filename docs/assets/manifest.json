@@ -1,0 +1,27 @@
+{
+  "source_kind": "independent synthetic numerical illustration",
+  "source": "scripts/render_overview.py",
+  "seed": null,
+  "read_external_data": false,
+  "method": "Analytical scalar field and two polynomial branches; explicitly constructed coverage matrix.",
+  "not_a_claim": "Not Maxwell simulation, unpublished research, tracking-algorithm output, or performance benchmark.",
+  "versions": {
+    "numpy": "1.26.4",
+    "matplotlib": "3.10.0"
+  },
+  "canvas": {
+    "width_px": 1600,
+    "height_px": 1200,
+    "aspect": "4:3"
+  },
+  "assets": [
+    {
+      "path": "docs/assets/portfolio-overview.png",
+      "sha256": "c72764ec6f99e80578f6e488284d65ffad9388a92348cd3557829c5f1cd745e6"
+    },
+    {
+      "path": "docs/assets/portfolio-overview.svg",
+      "sha256": "3aa711f1c308e183a35fe80b500d160d2e3633a345b2548d8bbede4e0f5813c9"
+    }
+  ]
+}
