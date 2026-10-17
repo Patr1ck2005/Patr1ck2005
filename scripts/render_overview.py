@@ -23,7 +23,7 @@ def main() -> None:
         "font.family": "Arial", "font.size": 10,
         "axes.labelsize": 10, "xtick.labelsize": 9, "ytick.labelsize": 9,
         "axes.linewidth": .65, "xtick.direction": "in", "ytick.direction": "in",
-        "svg.fonttype": "none", "figure.facecolor": "#f8f8f4",
+        "svg.fonttype": "none", "svg.hashsalt": "portfolio-overview-v1", "figure.facecolor": "#f8f8f4",
         "axes.facecolor": "#ffffff", "text.color": "#182b40",
         "axes.labelcolor": "#182b40", "xtick.color": "#364a60", "ytick.color": "#364a60",
     })
@@ -77,7 +77,11 @@ def main() -> None:
                        loc="upper center",bbox_to_anchor=(.5,-.25),ncol=3,fontsize=8,frameon=False)
     fig.text(.09,.025,"INDEPENDENT SYNTHETIC EXAMPLES  •  No unpublished research data",fontsize=9,color="#596a7b")
     for suffix in ("png","svg"):
-        fig.savefig(output / f"portfolio-overview.{suffix}",dpi=150,facecolor=fig.get_facecolor())
+        target=output / f"portfolio-overview.{suffix}"
+        extra={"metadata":{"Date":None}} if suffix=="svg" else {}
+        fig.savefig(target,dpi=150,facecolor=fig.get_facecolor(),**extra)
+        if suffix=="svg":
+            target.write_text("\n".join(line.rstrip() for line in target.read_text(encoding="utf-8").splitlines())+"\n",encoding="utf-8")
     plt.close(fig)
     assets=[]
     for path in sorted(output.glob("portfolio-overview.*")):
