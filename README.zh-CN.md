@@ -4,7 +4,7 @@
 
 我围绕光子学、数值分析、科研可视化，以及连接这些工作的工具开展研究与开发，也制作交互实验和游戏。
 
-[三分钟双语字幕导览](docs/demo/research-tools-tour.mp4) · [工具体系介绍](docs/tools-overview.zh-CN.md)
+[三分钟双语字幕导览](docs/demo/research-tools-tour.mp4) · [已核验下载](docs/downloads.md) · [工具体系介绍](docs/tools-overview.zh-CN.md)
 
 ![独立生成的光场、解析分支与数据覆盖合成数值示例](docs/assets/portfolio-overview.png)
 

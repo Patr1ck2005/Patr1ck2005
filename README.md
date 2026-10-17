@@ -4,7 +4,7 @@
 
 I work across photonics, numerical analysis, scientific visualization, and the tools that connect them. I also build interactive experiments and games.
 
-[Three-minute captioned tour](docs/demo/research-tools-tour.mp4) · [How the tools fit together](docs/tools-overview.md)
+[Three-minute captioned tour](docs/demo/research-tools-tour.mp4) · [Verified downloads](docs/downloads.md) · [How the tools fit together](docs/tools-overview.md)
 
 ![Independently generated synthetic examples of optical fields, analytical branches and data coverage](docs/assets/portfolio-overview.png)
 
