@@ -1,8 +1,10 @@
 # Photonics, scientific computing, and research tools
 
-[中文](README.zh-CN.md) · [Website](https://my1ab.fyi/en) · [All repositories](https://github.com/Patr1ck2005?tab=repositories)
+[中文](README.zh-CN.md) · [Website](https://my1ab.fyi/en) · [All repositories](https://github.com/Patr1ck2005?tab=repositories) · [Visual guide](docs/visual-guide.md)
 
 I work across photonics, numerical analysis, scientific visualization, and the tools that connect them. I also build interactive experiments and games.
+
+[Three-minute captioned tour](docs/demo/research-tools-tour.mp4) · [How the tools fit together](docs/tools-overview.md)
 
 ![Independently generated synthetic examples of optical fields, analytical branches and data coverage](docs/assets/portfolio-overview.png)
 

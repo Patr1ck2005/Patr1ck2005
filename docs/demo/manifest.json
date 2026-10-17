@@ -1,0 +1,123 @@
+{
+  "duration_seconds": 180,
+  "frames": 2160,
+  "fps": 12,
+  "format": "Silent captioned walkthrough; images are real computed outputs or attributed public software frames.",
+  "video": "research-tools-tour.mp4",
+  "video_sha256": "c7d6e72027256687c999acd5bf70531030d78fc3ed61ce8e2424950f7b0016ec",
+  "generator": "../../scripts/build_tour.py",
+  "generator_sha256": "a0023a876011b7b4d897d7d472b2f26fb532e0259d891bc180465cb6c148bc92",
+  "chapters": [
+    {
+      "title": "Photonics & scientific tools",
+      "zh": "从小型可复现结果开始，认识这组科研与互动工具。",
+      "en": "Start with bounded, reproducible results. This tour uses independent synthetic mathematics and public software frames.",
+      "seconds": 15,
+      "source_url": "https://github.com/Patr1ck2005/Patr1ck2005/blob/65f3568/docs/assets/portfolio-overview.png",
+      "kind": "Independent synthetic numerical illustration",
+      "source_filename": "portfolio-overview.png",
+      "source_sha256": "c72764ec6f99e80578f6e488284d65ffad9388a92348cd3557829c5f1cd745e6",
+      "preview": "chapter-01.png",
+      "preview_sha256": "4fb91c6c3bc4e83fe245ddddc700060dbf6920dea729a2b6595f67a35e555fbd"
+    },
+    {
+      "title": "Inspect before analysis",
+      "zh": "先识别文件覆盖、重复与冲突，原输入字节保持不变。",
+      "en": "Three files, 24 rows, three overlap pairs and two mesh conflicts. SHA-256 checks preserve the original input bytes.",
+      "seconds": 20,
+      "source_url": "https://github.com/Patr1ck2005/campaign-data/blob/349369d2252afa5722eb071ea93b6e1f0745c638/docs/assets/showcase/hero.svg",
+      "kind": "Computed synthetic file audit / campaign-data 0.2.0",
+      "source_filename": "hero.svg",
+      "source_sha256": "f1670df4a2d5f7d8665512779fa4bf008be5e13b74d98887da73935c8fa2dc1d",
+      "preview": "chapter-02.png",
+      "preview_sha256": "34376c67b353d85983bc2dcb0ef92ada8363630501d8befcf84d43b1fa4c0552"
+    },
+    {
+      "title": "Keep observations & missing slots",
+      "zh": "同一批候选追踪前后对照，缺失位置不会被悄悄补齐。",
+      "en": "The same 265 observations appear before and after tracking. Eight missing slots remain missing; labels need physical interpretation.",
+      "seconds": 25,
+      "source_url": "https://github.com/Patr1ck2005/eigenmode-analysis/blob/93e4270de07497e50d7b59243edbfec642d48796/docs/assets/showcase/hero.png",
+      "kind": "Computed synthetic path tracking / eigenmode-analysis 0.2.10",
+      "source_filename": "hero.png",
+      "source_sha256": "96312d8c95ba86e21096678c153538a1f1d365edeaf06628a1dc466daa16364b",
+      "preview": "chapter-03.png",
+      "preview_sha256": "ba9c3da668a396eafb690718d5af84e24e8124deaa80cc9979a66d2ec78cfd07"
+    },
+    {
+      "title": "Render explicit plotting specifications",
+      "zh": "曲线、非方形网格与曲面共享明确的数据及导出约定。",
+      "en": "Lines, a non-square grid with a hole, and layered surfaces. Height and color are independent channels; axes and legends remain visible.",
+      "seconds": 25,
+      "source_url": "https://github.com/Patr1ck2005/plot-foundation/blob/2339594dde0ce015c987cc15b08df4f2ba1c9262/docs/assets/showcase/hero.png",
+      "kind": "Computed synthetic figures / plot-foundation 0.1.13",
+      "source_filename": "hero.png",
+      "source_sha256": "568f0aeb943a8cd68bd99dcb3163099521233b8af5c801630e4a4cb14be4d4a1",
+      "preview": "chapter-04.png",
+      "preview_sha256": "6882e2171e943ca6e9d4af69f04959bf36ba14fa56ef2e4eb4b500c65b97718a"
+    },
+    {
+      "title": "One dataset, several useful views",
+      "zh": "同一组合成数组形成能带、Q 与偏振视图。",
+      "en": "One synthetic dataset produces band, illustrative Q and signed polarization views. The example checks tracking, orientation and slice maxima.",
+      "seconds": 25,
+      "source_url": "https://github.com/Patr1ck2005/plot-workflows/blob/bf1fc7adacac9f470833ac1334f6cb260de003eb/docs/assets/showcase/hero.png",
+      "kind": "Computed synthetic end-to-end workflow / plot-workflows 0.1.7",
+      "source_filename": "hero.png",
+      "source_sha256": "7b4a795ae66dfac9223d677abd81abbdba049f7e06c5e6028eabc9c3b782f4f2",
+      "preview": "chapter-05.png",
+      "preview_sha256": "7c090c876a7dc117f726e8b0c3d5b2eab6dea915476043857df2c762e57ddac9"
+    },
+    {
+      "title": "Check an optical approximation",
+      "zh": "通用高斯光束传播：用解析宽度与功率守恒检查数值。",
+      "en": "A generic Gaussian beam example compares propagation against analytic width and conserved power within its stated approximation.",
+      "seconds": 20,
+      "source_url": "https://github.com/Patr1ck2005/MyOptics/blob/e2ceda02d1f2cd44c977e136fc705fe99b15f681/docs/showcase/gaussian-propagation.png",
+      "kind": "Computed generic scalar-optics example / MyOptics",
+      "source_filename": "gaussian-propagation.png",
+      "source_sha256": "67da5f8c0ea03c6f986c447726271494ffe700f44f81ffcddd1d98d98dd6254b",
+      "preview": "chapter-06.png",
+      "preview_sha256": "29e909d6f470560eb7baea04a86db63dea9283d1e8b9b1f7037301e0e2b2066c"
+    },
+    {
+      "title": "Connect parameters to a real layout",
+      "zh": "独立生成的圆环、焊盘与标记，同时输出 GDS 与预览。",
+      "en": "Generic rings, pads and markers generate both GDS and a matching preview. Round-trip checks compare bounds, counts and area.",
+      "seconds": 20,
+      "source_url": "https://github.com/Patr1ck2005/gds-layout-kit/blob/5c25b78871ac85cbac3b9d2f45961dfecb9ec5ac/docs/showcase/layout-overview.png",
+      "kind": "Generated generic manufacturing layout / gds-layout-kit",
+      "source_filename": "layout-overview.png",
+      "source_sha256": "c33b7f8405bff5fd3cf0dc89132e3b4c3ee373685cf388115399e96e1267297a",
+      "preview": "chapter-07.png",
+      "preview_sha256": "90e941289113894707888f057bdda223d5d8676690cc1e0f344871d2e39b0c54"
+    },
+    {
+      "title": "Explore waves interactively",
+      "zh": "公开程序真实画面：双源干涉，并保留上游作者归属。",
+      "en": "A real public-program frame showing two-source interference. EM-Flow retains its Falstad and other upstream attribution.",
+      "seconds": 15,
+      "source_url": "https://github.com/Patr1ck2005/EM-Flow/blob/76812ec6fcf086aa2653aa5e64414d798cfdca97/docs/showcase/two-source.png",
+      "kind": "Actual public software frame / EM-Flow",
+      "source_filename": "two-source.png",
+      "source_sha256": "89fdc57ee5b70a7eceb8e8ecbf7ab802ec8113ed9109b475734b69b8f072d541",
+      "preview": "chapter-08.png",
+      "preview_sha256": "b387077c643bf6555c393b278e49032f586d6cb9a5c25508efd80f4524b2bc32"
+    },
+    {
+      "title": "Try one small, shareable task",
+      "zh": "能否运行？用于什么任务？还缺哪项能力？",
+      "en": "Run the combined example in a fresh environment. Share a small input, the output you need, and the capability that is missing.",
+      "seconds": 15,
+      "source_url": "https://github.com/Patr1ck2005/Patr1ck2005/blob/65f3568/docs/assets/portfolio-overview.png",
+      "kind": "Project links and reproducible sources / github.com/Patr1ck2005",
+      "source_filename": "portfolio-overview.png",
+      "source_sha256": "c72764ec6f99e80578f6e488284d65ffad9388a92348cd3557829c5f1cd745e6",
+      "preview": "chapter-09.png",
+      "preview_sha256": "5dcff900bbc87f44792d56aeaf7501e0e2841ff1a295dc326392e2d67910ac6b"
+    }
+  ],
+  "versions": {
+    "PyAV": "18.0.0"
+  }
+}

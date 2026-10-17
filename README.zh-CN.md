@@ -1,8 +1,10 @@
 # 光子学、科学计算与科研工具
 
-[English](README.md) · [个人网站](https://my1ab.fyi/zh) · [全部仓库](https://github.com/Patr1ck2005?tab=repositories)
+[English](README.md) · [个人网站](https://my1ab.fyi/zh) · [全部仓库](https://github.com/Patr1ck2005?tab=repositories) · [功能图导览](docs/visual-guide.md)
 
 我围绕光子学、数值分析、科研可视化，以及连接这些工作的工具开展研究与开发，也制作交互实验和游戏。
+
+[三分钟双语字幕导览](docs/demo/research-tools-tour.mp4) · [工具体系介绍](docs/tools-overview.zh-CN.md)
 
 ![独立生成的光场、解析分支与数据覆盖合成数值示例](docs/assets/portfolio-overview.png)
 
